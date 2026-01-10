@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage</title>
 </head>
 <body>
@@ -9,115 +10,143 @@
 <!-- Header -->
 <header>
   <div>
-    <a href="/"><span>Techium</span></a>
+    <div>
+      <a href="/"><span>My Website</span></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#latest_news">Latest news</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </div>
-  <nav>
-    <a href="/">Home</a>
-    <a href="#services">Services</a>
-    <a href="#works">Works</a>
-    <a href="#about">About</a>
-    <a href="#latest_news">Latest news</a>
-    <a href="#testimonials">Testimonials</a>
-    <a href="#contact">Contact</a>
-  </nav>
 </header>
 
 <!-- Main -->
 <main>
 
   <!-- Hero section -->
-  <section>
-    <h2>We help you build your brand</h2>
-    <a href="#">Get started</a>
+  <section class="hero" id="hero">
+    <div>
+      <h2>Welcome to Our Site</h2>
+      <a href="#">Get started</a>
+      <p>Some hero section text here.</p>
+    </div>
   </section>
 
   <!-- Services section -->
-  <section id="services">
-    <header>
-      <h2>Services</h2>
-      <p>We work with you</p>
-    </header>
+  <section class="services" id="services">
     <div>
-      <h3>Design & Concept</h3>
-      <h3>Digital Strategy</h3>
-      <h3>Content Strategy</h3>
-      <h3>UX Design</h3>
-      <h3>Web Development</h3>
-      <h3>Social Media</h3>
+      <header>
+        <h2>Services</h2>
+        <p>We work with you</p>
+      </header>
+      <div>
+        <ul>
+          <li>Design&Concept</li>
+          <li>DigitalStrategy</li>
+          <li>ContentStrategy</li>
+          <li>UXDesign</li>
+          <li>WebDevelopment</li>
+          <li>SocialMedia</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- Works section -->
-  <section id="works">
-    <header>
-      <h2>Works</h2>
-      <p>Take a look in our portfolio</p>
-    </header>
+  <section class="works" id="works">
     <div>
-      <h3>Interior Design</h3>
-      <h3>Web Development</h3>
-      <h3>Personal Brand</h3>
+      <header>
+        <h2>Works</h2>
+        <p>Take a look in our portfolio</p>
+      </header>
+      <div>
+        <ul>
+          <li>InteriorDesign</li>
+          <li>WebDevelopment</li>
+          <li>PersonalBrand</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- About Us section -->
-  <section id="about">
-    <header>
-      <h2>About Us</h2>
-      <p>Everything about us</p>
-    </header>
+  <section class="about-us" id="about">
     <div>
-      <h3>Who are we</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
-
-      <h3>Our culture</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
-
-      <h3>How we work</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <header>
+        <h2>About Us</h2>
+        <p>Everything about us</p>
+      </header>
+      <div>
+        <ul>
+          <li>Who are we</li>
+          <li>Our culture</li>
+          <li>How we work</li>
+        </ul>
+      </div>
+      <a href="about.html">Learn more about us</a>
     </div>
-    <a href="about.html">Learn more about us</a>
   </section>
 
   <!-- Latest news section -->
-  <section id="latest_news">
-    <header>
-      <h2>Latest news</h2>
-    </header>
-    <article>
-      <h3>Career</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
-    </article>
-    <article>
-      <h3>Digital Life</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
-    </article>
-    <article>
-      <h3>Social</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
-    </article>
+  <section class="blog" id="latest_news">
+    <div>
+      <header>
+        <h2>Latest news</h2>
+      </header>
+      <div>
+        <ul>
+          <li>Hoclocotenerese Triarius non potuit.</li>
+          <li>Utaliosomittam, hunc appello, quem ille unum secutus est.</li>
+          <li>Bestiarum vero nullum iudicium puto.</li>
+        </ul>
+        <ul>
+          <li>Career</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>DigitalLife</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Social</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <!-- Testimonials section -->
-  <section id="testimonials">
-    <header>
-      <h2>Testimonials</h2>
-      <p>We are more than a digital company</p>
-    </header>
-    <article>Testimonial 1</article>
-    <article>Testimonial 2</article>
-    <article>Testimonial 3</article>
+  <section class="testimonials" id="testimonials">
+    <div>
+      <header>
+        <h2>Testimonials</h2>
+        <p>We are more than a digital company</p>
+      </header>
+      <div>
+        <ul>
+          <li>Testimonial1</li>
+          <li>Testimonial2</li>
+          <li>Testimonial3</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <!-- Contact section -->
-  <section id="contact">
-    <header>
-      <h2>Contact</h2>
-    </header>
+  <section class="contact" id="contact">
     <div>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <header>
+        <h2>Contact</h2>
+        <p>We like to know new people</p>
+      </header>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <a href="contact.html">Get in touch</a>
     </div>
-    <a href="contact.html">Get in touch</a>
   </section>
 
 </main>
