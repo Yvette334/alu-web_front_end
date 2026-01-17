@@ -191,10 +191,9 @@ a:active {
   font-size: var(--button-font-size);
 }
 
-/* CHECKER REQUIRES TRANSITION HERE */
 .button:hover {
-  color: var(--button-hover-color);
   background-color: var(--button-hover-background);
+
   transition-duration: var(--transition-duration);
   transition-property: background-color;
 }
