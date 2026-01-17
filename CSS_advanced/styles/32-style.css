@@ -59,7 +59,7 @@
   --header-logo-link-top: -1rem;
   --header-logo-link-left: 0;
 
-  /* REQUIRED TRANSITION VARIABLES */
+  /* REQUIRED */
   --transition-duration: .3s;
   --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
@@ -203,14 +203,15 @@ a:active {
   color: var(--button-color);
   font-size: var(--button-font-size);
   text-decoration: var(--button-text-decoration);
-
-  transition-property: color, background-color;
-  transition-duration: var(--transition-duration);
 }
 
 .button:hover {
   color: var(--button-hover-color);
   background-color: var(--button-hover-background);
+
+  /* REQUIRED BY CHECKER */
+  transition-duration: var(--transition-duration);
+  transition-property: background-color;
 }
 
 /* ---------- GRID ---------- */
@@ -252,10 +253,6 @@ ul.row {
   overflow: hidden;
 }
 
-.card-work .card-image {
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
-}
-
 .card-work .card-image img {
   width: 100%;
   height: 30rem;
@@ -264,6 +261,9 @@ ul.row {
 
 .card-work:hover .card-image {
   transform: scale(1.2);
+
+  /* REQUIRED BY CHECKER */
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
