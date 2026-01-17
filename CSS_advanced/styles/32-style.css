@@ -193,9 +193,10 @@ a:active {
 
 .button:hover {
   background-color: var(--button-hover-background);
+  color: var(--button-hover-color);
 
   transition-duration: var(--transition-duration);
-  transition-property: background-color;
+  transition-property: color, background-color;
 }
 
 /* ================= GRID ================= */
